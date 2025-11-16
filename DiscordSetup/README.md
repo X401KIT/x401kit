@@ -70,7 +70,7 @@ The Discord Developer Portal is the central hub for creating and managing all yo
    - Copy the token immediately and **save it securely**
    
    ```text
-   MTIzNDU2Nzg5MDEyMzQ1Njc4OQ.GhIjKl.MnOpQrStUvWxYzAbCdEfGhIjKlMnOpQrStUvWxYz
+   sample token
    ```
 
    > ⚠️ **CRITICAL**: Never share your bot token publicly. Anyone with this token can control your bot. Treat it like a password!

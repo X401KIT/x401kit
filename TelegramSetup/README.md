@@ -46,7 +46,7 @@ Telegram's **BotFather** is the central hub for creating and managing all Telegr
 5. BotFather will provide your **Bot Token**:
 
 ```text
-123456789:ABCdefGHIjklMNOpqrSTUvwxYZ
+sample token
 ```
 
 6. **Save this token securely** — this is your Bot ID/Token
