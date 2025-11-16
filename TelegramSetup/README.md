@@ -45,7 +45,9 @@ Telegram's **BotFather** is the central hub for creating and managing all Telegr
 4. Choose a **username** (must end with `bot`, e.g., `my_x401_bot`)
 5. BotFather will provide your **Bot Token**:
 
-
+```text
+Example: 123456789:ABCdefGHI-EXAMPLE_TOKEN_jklMNOpqr
+```
 
 6. **Save this token securely** — this is your Bot ID/Token
 
@@ -273,4 +275,4 @@ These are all the credentials required for **X401** usage. You can now integrate
 
 ---
 
-**Made with ❤️ for X401**
+**Made with ❤️ for X401

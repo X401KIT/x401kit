@@ -69,16 +69,15 @@ The Discord Developer Portal is the central hub for creating and managing all yo
    - Under the **Token** section, click **Reset Token**
    - Copy the token immediately and **save it securely**
    
-  
+   ```text
+   Example format: MTIzNDU2Nzg5.GhIjKl.MnOpQrStUvWxYz_EXAMPLE_ONLY
+   ```
 
    > ⚠️ **CRITICAL**: Never share your bot token publicly. Anyone with this token can control your bot. Treat it like a password!
-
-
 
 4. **Bot Permissions:**
    - Under **Bot Permissions**, you can set default permissions
    - Common permissions for X401:
-     - ✅ **Send Messages**
      - ✅ **Read Message History**
      - ✅ **Create Instant Invite** (if needed)
 
@@ -101,8 +100,7 @@ You must use the OAuth2 URL Generator to create a unique link that invites your 
 
 3. **Select Bot Permissions:**
    - Based on your bot's needs, select appropriate permissions:
-     - ✅ **create invite link**
-     
+     - ✅ **Create Instant Invite**
    
    > ⚠️ **Warning**: Avoid selecting **Administrator** unless absolutely required. Grant only the minimum permissions needed.
 
@@ -111,7 +109,7 @@ You must use the OAuth2 URL Generator to create a unique link that invites your 
    - Copy this URL
 
    ```
-   https://discord.com/api/oauth2/authorize?client_id=123456789012345678&permissions=2048&scope=bot
+   https://discord.com/api/oauth2/authorize?client_id=YOUR_CLIENT_ID&permissions=2048&scope=bot
    ```
 
 ---
@@ -165,7 +163,7 @@ After enabling Developer Mode, you can now copy IDs:
 3. The ID will be copied to your clipboard
 
 ```text
-Channel ID: 987654321098765432
+Channel ID: 123456789012345678
 ```
 
 ---
@@ -241,8 +239,6 @@ Channel ID: 987654321098765432
 
 **Solution**: Ensure you have "Manage Server" permission on the server you're trying to add the bot to.
 
-
-
 ### Problem: Lost or forgot bot token
 
 **Solution**: Go to Developer Portal → Your Application → Bot → Reset Token. You'll need to update your code with the new token.
@@ -261,7 +257,6 @@ Channel ID: 987654321098765432
 You now have all the credentials needed:
 - ✅ **Bot Token** → from Discord Developer Portal
 - ✅ **Channel ID** → from Discord Client (with Developer Mode)
-- ✅ **Server ID** → from Discord Client (with Developer Mode)
 
 These are all the credentials required for **X401** usage. You can now integrate your Discord bot with your application!
 
@@ -272,7 +267,6 @@ These are all the credentials required for **X401** usage. You can now integrate
 - [Discord Developer Documentation](https://discord.com/developers/docs/intro)
 - [Discord Developer Portal](https://discord.com/developers/applications)
 
----
 ---
 
 **Made with ❤️ for X401**
