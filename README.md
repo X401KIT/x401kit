@@ -30,7 +30,7 @@ While **x402** uses the `HTTP 402 Payment Required` status code to enable **micr
 
 * **x402 (402 Payment Required):** Access is granted only after a **micropayment** is successfully submitted and verified on-chain.
 
-**X401's killer feature: enabling payless, ownership-based access for on-the-fly generation of exclusive content.**
+**X401 enabling payless, ownership-based access for on-the-fly generation of access links.**
 
 ---
 
