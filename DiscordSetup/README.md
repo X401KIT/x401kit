@@ -69,9 +69,7 @@ The Discord Developer Portal is the central hub for creating and managing all yo
    - Under the **Token** section, click **Reset Token**
    - Copy the token immediately and **save it securely**
    
-   ```text
-   sample token
-   ```
+  
 
    > ⚠️ **CRITICAL**: Never share your bot token publicly. Anyone with this token can control your bot. Treat it like a password!
 

@@ -45,9 +45,7 @@ Telegram's **BotFather** is the central hub for creating and managing all Telegr
 4. Choose a **username** (must end with `bot`, e.g., `my_x401_bot`)
 5. BotFather will provide your **Bot Token**:
 
-```text
-sample token
-```
+
 
 6. **Save this token securely** — this is your Bot ID/Token
 
