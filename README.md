@@ -17,6 +17,7 @@ It provides a clear, standardized approach to enforcing token-based and signatur
 **Currently supports:**
 * **One time Telegram invite links** as ephemeral data — generated on-demand when users authenticate with their wallet and hold the required token
 * **One time Discod invite links** as ephemeral data — generated on-demand when users authenticate with their wallet and hold the required token
+* **Custom  exclusive content** accessible only when users authenticate with their wallet and hold the required token 
 
 The protocol is architected to support any type of ephemeral data generation in the future.
 
@@ -46,7 +47,7 @@ While **x402** uses the `HTTP 402 Payment Required` status code to enable **micr
 
 ## 🚦 Use Cases
 
-* **Token-gated on-the-fly generation of ephemeral exclusive content** — private Telegram/Discord invite links, unique access codes, temporary API credentials, time-limited download tokens, and more
+* **Token-gated on-the-fly generation of ephemeral exclusive content** — private Telegram/Discord invite links, custom content  and more
 
 ---
 
