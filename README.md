@@ -15,7 +15,8 @@ X401 is an open-source protocol that leverages **HTTP 401 Unauthorized** to enab
 It provides a clear, standardized approach to enforcing token-based and signature-based authentication while maintaining full compatibility with standard HTTP 401 semantics.
 
 **Currently supports:**
-* **Telegram invite links** as ephemeral data — generated on-demand when users authenticate with their wallet and hold the required token
+* **One time Telegram invite links** as ephemeral data — generated on-demand when users authenticate with their wallet and hold the required token
+* **One time Discod invite links** as ephemeral data — generated on-demand when users authenticate with their wallet and hold the required token
 
 The protocol is architected to support any type of ephemeral data generation in the future.
 
@@ -23,7 +24,7 @@ The protocol is architected to support any type of ephemeral data generation in 
 
 ## 💸 The Payless Alternative to x402
 
-While **x402** uses the `HTTP 402 Payment Required` status code to enable **micropayments** for on-demand resource access, **X401** is its **payless counterpart**, designed specifically for **Solana token-gating**.
+While **x402** uses the `HTTP 402 Payment Required` status code to enable **micropayments** for on-demand resource access, **X401** is its **payless counterpart**
 
 * **X401 (401 Unauthorized):** Access is granted based on **authorization** (wallet signature) and **asset ownership** (holding a specific token). **No on-chain transaction or gas fee is required** to prove access rights, making it a powerful **"payless gateway"** for exclusive content.
 
