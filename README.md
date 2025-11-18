@@ -8,7 +8,9 @@
 
 ---
 
-## 🌟 What is X401?
+## 🌟What is X401?
+
+
 
 X401 is an open-source protocol that leverages **HTTP 401 Unauthorized** to enable token-gated access and ephemeral data generation for Solana wallets.
 
@@ -39,7 +41,7 @@ While **x402** uses the `HTTP 402 Payment Required` status code to enable **micr
 
 * 🎯 **Standards-Compliant** — Built on HTTP 401 for seamless integration with existing web infrastructure
 * 🔗 **Solana-Native** — Designed specifically for Solana wallet authentication and asset verification
-* 🔒 **Token-Gated** — Control access based on token ownership (NFTs, SPL tokens) or wallet signatures
+* 🔒 **Token-Gated** — Control access based on token ownership (SPL tokens) and wallet signatures
 * 🚀 **Simple** — Easy to implement, understand, and integrate into existing backends
 * 🌐 **Open Source** — Community-driven and transparent, licensed under the MIT License
 
@@ -72,8 +74,8 @@ We welcome contributions from the community! Whether you're fixing bugs, improvi
 * 🔧 **Submit pull requests**
 * 📖 **Improve documentation**
 
----
 
-## 📄 License
+
+## 📄License
 
 **MIT License** — Free to use and modify.
