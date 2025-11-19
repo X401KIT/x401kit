@@ -16,7 +16,7 @@
 ## Why This Matters / What Pain It Solves
 
 > Protects internal APIs without building custom auth
-> Developers often expose custom endpoints  and need gating — but building signature verification, token checking, and rule engines is messy.
+> Developers often expose custom endpoints  and need gating but building signature verification, token checking, and rule engines is messy.
 
 > X401 converts this into a simple HTTP 401 flow.
 
