@@ -1,6 +1,6 @@
 #  X401 Protocol
 
-# Token-gated authentication for Solana wallets using HTTP 401
+# Wallet and Token Based  authentication for Solana wallets using HTTP 401
 
 
   ```Built for Solana```
